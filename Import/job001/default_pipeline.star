@@ -15,7 +15,7 @@ _rlnPipeLineProcessName #1
 _rlnPipeLineProcessAlias #2 
 _rlnPipeLineProcessTypeLabel #3 
 _rlnPipeLineProcessStatusLabel #4 
-Import/job001/ Import/Import1/ relion.import.movies    Running 
+Import/job001/       None relion.import.movies    Running 
  
 
 # version 50001
