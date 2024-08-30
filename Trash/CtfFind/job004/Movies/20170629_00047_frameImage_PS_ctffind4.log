@@ -1,0 +1,26 @@
+
+
+        **   Welcome to Ctffind   **
+
+            Version : 4.1.14
+           Compiled : Aug  9 2023
+               Mode : Scripted
+
+Input image file name                              : CtfFind/job004/Movies/20170629_00047_frameImage_PS.mrc
+Output diagnostic image file name                  : CtfFind/job004/Movies/20170629_00047_frameImage_PS.ctf
+Pixel size                                         : 1.39955
+Acceleration voltage                               : 200
+Spherical aberration                               : 1.4
+Amplitude contrast                                 : 0.1
+Size of amplitude spectrum to compute              : 512
+Minimum resolution                                 : 30
+Maximum resolution                                 : 5
+Minimum defocus                                    : 5000
+Maximum defocus                                    : 50000
+Defocus search step                                : 500
+Do you know what astigmatism is present?           : no
+Slower, more exhaustive search?                    : no
+Use a restraint on astigmatism?                    : yes
+Expected (tolerated) astigmatism                   : 100
+Find additional phase shift?                       : no
+Do you want to set expert options?                 : 

@@ -1,0 +1,10 @@
+
+ ++++ Executing new job on Fri Aug 30 06:47:20 2024
+ ++++ with the following command(s): 
+`which relion_run_ctffind_mpi` --i MotionCorr/job002/corrected_micrographs.star --o CtfFind/job004/ --Box 512 --ResMin 30 --ResMax 5 --dFMin 5000 --dFMax 50000 --FStep 500 --dAst 100 --ctffind_exe /opt/ctffind/bin/ctffind --ctfWin -1 --is_ctffind4  --fast_search  --use_given_ps   --pipeline_control CtfFind/job004/
+ ++++ 
+
+ ++++ Executing new job on Fri Aug 30 06:48:10 2024
+ ++++ with the following command(s): 
+`which relion_run_ctffind_mpi` --i MotionCorr/job002/corrected_micrographs.star --o CtfFind/job004/ --Box 512 --ResMin 30 --ResMax 5 --dFMin 5000 --dFMax 50000 --FStep 500 --dAst 100 --ctffind_exe /opt/ctffind/bin/ctffind --ctfWin -1 --is_ctffind4  --fast_search  --use_given_ps  --only_do_unfinished   --pipeline_control CtfFind/job004/
+ ++++ 

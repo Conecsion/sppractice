@@ -1,0 +1,10 @@
+
+ ++++ Executing new job on Fri Aug 30 16:51:26 2024
+ ++++ with the following command(s): 
+`which relion_manualpick` --i CtfFind/job005/micrographs_ctf.star --odir ManualPick/job006/ --pickname manualpick --allow_save --fast_save --selection ManualPick/job006/micrographs_selected.star --scale 0.5 --sigma_contrast 3 --black 0 --white 0 --topaz_denoise --particle_diameter 200  --pipeline_control ManualPick/job006/
+ ++++ 
+
+ ++++ Executing new job on Fri Aug 30 16:54:25 2024
+ ++++ with the following command(s): 
+`which relion_manualpick` --i CtfFind/job005/micrographs_ctf.star --odir ManualPick/job006/ --pickname manualpick --allow_save --fast_save --selection ManualPick/job006/micrographs_selected.star --scale 0.3 --sigma_contrast 3 --black 0 --white 0 --topaz_denoise --particle_diameter 200  --pipeline_control ManualPick/job006/
+ ++++ 

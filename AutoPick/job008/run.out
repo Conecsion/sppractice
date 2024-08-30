@@ -1,0 +1,33 @@
+ + Run autopicking on the following micrographs: 
+    * MotionCorr/job002/Movies/20170629_00021_frameImage.mrc
+    * MotionCorr/job002/Movies/20170629_00022_frameImage.mrc
+    * MotionCorr/job002/Movies/20170629_00023_frameImage.mrc
+    * MotionCorr/job002/Movies/20170629_00024_frameImage.mrc
+    * MotionCorr/job002/Movies/20170629_00025_frameImage.mrc
+    * MotionCorr/job002/Movies/20170629_00026_frameImage.mrc
+    * MotionCorr/job002/Movies/20170629_00027_frameImage.mrc
+    * MotionCorr/job002/Movies/20170629_00028_frameImage.mrc
+    * MotionCorr/job002/Movies/20170629_00029_frameImage.mrc
+    * MotionCorr/job002/Movies/20170629_00030_frameImage.mrc
+ + Will use following diameters for Laplacian-of-Gaussian filter: 
+   * 30 (too low)
+   * 38 (too low)
+   * 50 (too low)
+   * 75 (too low)
+   * 150 (ok)
+   * 165 (ok)
+   * 180 (ok)
+   * 360 (too high)
+   * 540 (too high)
+   * 720 (too high)
+   * 900 (too high)
+ + Will use micrographs scaled to 340 pixels as requested. The largest prime factor in FFTs is 19
+ Autopicking ...
+000/??? sec ~~(,_,">                                                          [oo]   1/  10 sec ......~~(,_,">   1/   5 sec ...........~~(,_,">   2/   6 sec ..................~~(,_,">   2/   5 sec .......................~~(,_,">   3/   6 sec ..............................~~(,_,">   4/   6 sec ....................................~~(,_,">   4/   5 sec ..........................................~~(,_,">   5/   6 sec ................................................~~(,_,">   6/   6 sec ......................................................~~(,_,">   6/   6 sec ............................................................~~(,_,">
+ Generating  output list of coordinate files ... 
+000/??? sec ~~(,_,">                                                          [oo]   0/   0 sec ............................................................~~(,_,">
+ Saved list with 10 coordinate files in: AutoPick/job008/autopick.star
+ Total number of particles from 10 micrographs is 2374
+ i.e. on average there were 237 particles per micrograph
+ Now generating logfile.pdf ... 
+ Done! Written: AutoPick/job008/logfile.pdf 

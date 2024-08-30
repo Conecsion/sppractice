@@ -1,0 +1,6 @@
+# Output from CTFFind version 4.1.14, run on 2024-08-30 16:05:32
+# Input file: CtfFind/job005/Movies/20170629_00049_frameImage_PS.mrc ; Number of micrographs: 1
+# Pixel size: 1.400 Angstroms ; acceleration voltage: 200.0 keV ; spherical aberration: 1.40 mm ; amplitude contrast: 0.10
+# Box size: 512 pixels ; min. res.: 30.0 Angstroms ; max. res.: 5.0 Angstroms ; min. def.: 5000.0 um; max. def. 50000.0 um
+# Columns: #1 - micrograph number; #2 - defocus 1 [Angstroms]; #3 - defocus 2; #4 - azimuth of astigmatism; #5 - additional phase shift [radians]; #6 - cross correlation; #7 - spacing (in Angstroms) up to which CTF rings were fit successfully
+1.000000 31530.283203 30832.074219 -19.587290 0.000000 0.083908 5.512074

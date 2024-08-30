@@ -1,0 +1,5 @@
+
+ ++++ Executing new job on Fri Aug 30 17:46:13 2024
+ ++++ with the following command(s): 
+`which relion_preprocess` --i CtfFind/job005/micrographs_ctf.star --coord_list AutoPick/job008/autopick.star --part_star Extract/job009/particles.star --part_dir Extract/job009/ --extract --extract_size 256 --float16  --scale 64 --norm --bg_radius 24 --white_dust -1 --black_dust -1 --invert_contrast   --pipeline_control Extract/job009/
+ ++++ 

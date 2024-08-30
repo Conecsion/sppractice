@@ -1,0 +1,5 @@
+
+ ++++ Executing new job on Fri Aug 30 17:09:37 2024
+ ++++ with the following command(s): 
+`which relion_star_handler` --i CtfFind/job005/micrographs_ctf.star --o Select/job007/micrographs.star --split  --size_split 10  --pipeline_control Select/job007/
+ ++++ 

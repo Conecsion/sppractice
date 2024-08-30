@@ -3,7 +3,7 @@
 
 data_pipeline_general
 
-_rlnPipeLineJobCounter                      11
+_rlnPipeLineJobCounter                       9
  
 
 # version 50001
@@ -20,9 +20,7 @@ MotionCorr/job002/       None relion.motioncorr.own  Succeeded
 CtfFind/job005/ CtfFind/ctffind1/ relion.ctffind.ctffind4  Succeeded 
 ManualPick/job006/ ManualPick/ManualPick1/ relion.manualpick  Succeeded 
 Select/job007/ Select/subset1/ relion.select.split  Succeeded 
-AutoPick/job008/ AutoPick/LoG/ relion.autopick.log  Succeeded 
-Extract/job009/ Extract/LoGExtract/ relion.extract  Succeeded 
-Class2D/job010/ Class2D/LoG/ relion.class2d  Succeeded 
+AutoPick/job008/       None relion.autopick.log    Running 
  
 
 # version 50001
@@ -45,9 +43,6 @@ Select/job007/micrographs_split2.star MicrographGroupMetadata.star.relion       
 Select/job007/micrographs_split3.star MicrographGroupMetadata.star.relion            1 
 AutoPick/job008/autopick.star MicrographCoordsGroup.star.relion.autopick            1 
 AutoPick/job008/logfile.pdf LogFile.pdf.relion.autopick            1 
-Extract/job009/particles.star ParticleGroupMetadata.star.relion            1 
-Class2D/job010/run_it025_data.star ParticleGroupMetadata.star.relion.class2d            1 
-Class2D/job010/run_it025_optimiser.star OptimiserData.star.relion.class2d            1 
  
 
 # version 50001
@@ -62,9 +57,6 @@ MotionCorr/job002/corrected_micrographs.star CtfFind/job005/
 CtfFind/job005/micrographs_ctf.star ManualPick/job006/ 
 CtfFind/job005/micrographs_ctf.star Select/job007/ 
 Select/job007/micrographs_split1.star AutoPick/job008/ 
-CtfFind/job005/micrographs_ctf.star Extract/job009/ 
-AutoPick/job008/autopick.star Extract/job009/ 
-Extract/job009/particles.star Class2D/job010/ 
  
 
 # version 50001
@@ -86,7 +78,4 @@ Select/job007/ Select/job007/micrographs_split2.star
 Select/job007/ Select/job007/micrographs_split3.star 
 AutoPick/job008/ AutoPick/job008/autopick.star 
 AutoPick/job008/ AutoPick/job008/logfile.pdf 
-Extract/job009/ Extract/job009/particles.star 
-Class2D/job010/ Class2D/job010/run_it025_data.star 
-Class2D/job010/ Class2D/job010/run_it025_optimiser.star 
  

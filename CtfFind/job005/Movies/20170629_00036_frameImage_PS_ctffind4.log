@@ -1,0 +1,57 @@
+
+
+        **   Welcome to Ctffind   **
+
+            Version : 4.1.14
+           Compiled : May  8 2020
+               Mode : Scripted
+
+Input image file name                              : CtfFind/job005/Movies/20170629_00036_frameImage_PS.mrc
+Output diagnostic image file name                  : CtfFind/job005/Movies/20170629_00036_frameImage_PS.ctf
+Pixel size                                         : 1.39955
+Acceleration voltage                               : 200
+Spherical aberration                               : 1.4
+Amplitude contrast                                 : 0.1
+Size of amplitude spectrum to compute              : 512
+Minimum resolution                                 : 30
+Maximum resolution                                 : 5
+Minimum defocus                                    : 5000
+Maximum defocus                                    : 50000
+Defocus search step                                : 500
+Do you know what astigmatism is present?           : no
+Slower, more exhaustive search?                    : no
+Use a restraint on astigmatism?                    : yes
+Expected (tolerated) astigmatism                   : 100
+Find additional phase shift?                       : no
+Do you want to set expert options?                 : no
+File name: 20170629_00036_frameImage_PS.mrc
+File type: MRC
+Dimensions: X = 512 Y = 512 Z = 1
+Number of slices: 1
+Working on micrograph 1 of 1
+      DFMID1      DFMID2      ANGAST          CC
+    40568.16    40568.16      -12.50     0.04202
+
+Timings
+ Initialization       : 00:00:00
+ Spectrum computation : 00:00:00
+ Parameter search     : 00:00:01
+ Diagnosis            : 00:00:00
+ Total                : 00:00:01
+
+
+Estimated defocus values        : 41496.83 , 40021.36 Angstroms
+Estimated azimuth of astigmatism: -17.46 degrees
+Score                           : 0.04597
+Pixel size for fitting          : 1.400 Angstroms
+Thon rings with good fit up to  : 7.6 Angstroms
+CTF aliasing apparent from      : 10.2 Angstroms
+[31mWarning: CTF aliasing occurred within your CTF fitting range. Consider computing a larger spectrum (current size = 512).
+[0m
+
+Summary of results                          : CtfFind/job005/Movies/20170629_00036_frameImage_PS.txt
+Diagnostic images                           : CtfFind/job005/Movies/20170629_00036_frameImage_PS.ctf
+Detailed results, including 1D fit profiles : CtfFind/job005/Movies/20170629_00036_frameImage_PS_avrot.txt
+Use this command to plot 1D fit profiles    : ctffind_plot_results.sh CtfFind/job005/Movies/20170629_00036_frameImage_PS_avrot.txt
+
+

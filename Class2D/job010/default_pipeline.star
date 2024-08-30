@@ -22,7 +22,7 @@ ManualPick/job006/ ManualPick/ManualPick1/ relion.manualpick  Succeeded
 Select/job007/ Select/subset1/ relion.select.split  Succeeded 
 AutoPick/job008/ AutoPick/LoG/ relion.autopick.log  Succeeded 
 Extract/job009/ Extract/LoGExtract/ relion.extract  Succeeded 
-Class2D/job010/ Class2D/LoG/ relion.class2d  Succeeded 
+Class2D/job010/       None relion.class2d    Running 
  
 
 # version 50001

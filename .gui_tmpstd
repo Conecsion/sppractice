@@ -1,0 +1,424 @@
+RELION version: 5.0-beta-3-commit-12cf15 
+Precision: BASE=double, CUDA-ACC=single 
+
+ === RELION MPI setup ===
+ + Number of MPI processes                 = 2
+ + Number of threads per MPI process       = 8
+ + Total number of threads therefore       = 16
+ + Leader      (0) runs on host            = lighthouse
+ + Follower     1  runs on host            = lighthouse
+ ==========================
+ uniqueHost lighthouse has 1 ranks.
+GPU-ids not specified for this rank, threads will automatically be mapped to available devices.
+ Thread 0 on follower 1 mapped to device 0
+ Thread 1 on follower 1 mapped to device 0
+ Thread 2 on follower 1 mapped to device 0
+ Thread 3 on follower 1 mapped to device 0
+ Thread 4 on follower 1 mapped to device 0
+ Thread 5 on follower 1 mapped to device 0
+ Thread 6 on follower 1 mapped to device 0
+ Thread 7 on follower 1 mapped to device 0
+ Running CPU instructions in double precision. 
+ + WARNING: Changing psi sampling rate (before oversampling) to 11.25 degrees, for more efficient GPU calculations
+ Estimating initial noise spectra from at most 1000 particles 
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 12.3 degrees; offsets= 6.8676 Angstroms
+ CurrentResolution= 56.64 Angstroms, which requires orientationSampling of at least 30 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 1 of 25
+   9/   9 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 14.5 degrees; offsets= 9.912 Angstroms
+ CurrentResolution= 45.312 Angstroms, which requires orientationSampling of at least 25.7143 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 2 of 25
+   7/   7 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 13.7 degrees; offsets= 9.558 Angstroms
+ CurrentResolution= 37.76 Angstroms, which requires orientationSampling of at least 21.1765 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 3 of 25
+   6/   6 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 13.1 degrees; offsets= 9.204 Angstroms
+ CurrentResolution= 37.76 Angstroms, which requires orientationSampling of at least 21.1765 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 4 of 25
+   5/   5 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 10.1 degrees; offsets= 8.319 Angstroms
+ CurrentResolution= 37.76 Angstroms, which requires orientationSampling of at least 21.1765 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 5 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 8.9 degrees; offsets= 7.2216 Angstroms
+ CurrentResolution= 37.76 Angstroms, which requires orientationSampling of at least 21.1765 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 6 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 7.7 degrees; offsets= 6.5136 Angstroms
+ CurrentResolution= 25.1733 Angstroms, which requires orientationSampling of at least 14.4 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 7 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   1/   1 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 6.4 degrees; offsets= 6.018 Angstroms
+ CurrentResolution= 25.1733 Angstroms, which requires orientationSampling of at least 14.4 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 8 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 6.1 degrees; offsets= 5.5224 Angstroms
+ CurrentResolution= 25.1733 Angstroms, which requires orientationSampling of at least 14.4 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 9 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 6.1 degrees; offsets= 5.0976 Angstroms
+ CurrentResolution= 25.1733 Angstroms, which requires orientationSampling of at least 14.4 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 10 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 5.4 degrees; offsets= 4.956 Angstroms
+ CurrentResolution= 20.5964 Angstroms, which requires orientationSampling of at least 11.6129 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 11 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   1/   1 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 5.3 degrees; offsets= 4.8852 Angstroms
+ CurrentResolution= 20.5964 Angstroms, which requires orientationSampling of at least 11.6129 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 12 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 5.2 degrees; offsets= 4.8852 Angstroms
+ CurrentResolution= 20.5964 Angstroms, which requires orientationSampling of at least 11.6129 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 13 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 5.1 degrees; offsets= 4.8852 Angstroms
+ CurrentResolution= 18.88 Angstroms, which requires orientationSampling of at least 10.5882 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 14 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 5.1 degrees; offsets= 4.8144 Angstroms
+ CurrentResolution= 18.88 Angstroms, which requires orientationSampling of at least 10.5882 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 15 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 6.1 degrees; offsets= 4.8852 Angstroms
+ CurrentResolution= 18.88 Angstroms, which requires orientationSampling of at least 10.5882 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 16 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   1/   1 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 5.3 degrees; offsets= 4.7436 Angstroms
+ CurrentResolution= 18.88 Angstroms, which requires orientationSampling of at least 10.5882 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 17 of 25
+   3/   3 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 5.1 degrees; offsets= 4.4604 Angstroms
+ CurrentResolution= 18.88 Angstroms, which requires orientationSampling of at least 10.5882 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 18 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 5.1 degrees; offsets= 4.3188 Angstroms
+ CurrentResolution= 17.4277 Angstroms, which requires orientationSampling of at least 9.72973 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 19 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 5 degrees; offsets= 4.248 Angstroms
+ CurrentResolution= 17.4277 Angstroms, which requires orientationSampling of at least 9.72973 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 20 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 4.95 degrees; offsets= 4.1772 Angstroms
+ CurrentResolution= 17.4277 Angstroms, which requires orientationSampling of at least 9.72973 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 21 of 25
+   3/   3 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 4.9 degrees; offsets= 4.1064 Angstroms
+ CurrentResolution= 17.4277 Angstroms, which requires orientationSampling of at least 9.72973 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 22 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   1/   1 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 5.1 degrees; offsets= 4.1772 Angstroms
+ CurrentResolution= 17.4277 Angstroms, which requires orientationSampling of at least 9.72973 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 23 of 25
+   3/   3 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   1/   1 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 4.65 degrees; offsets= 3.8586 Angstroms
+ CurrentResolution= 17.4277 Angstroms, which requires orientationSampling of at least 9.72973 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 24 of 25
+   3/   3 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">
+ Estimating accuracies in the orientational assignment ... 
+   0/   0 sec ............................................................~~(,_,">
+ Auto-refine: Estimated accuracy angles= 4.6 degrees; offsets= 3.7524 Angstroms
+ CurrentResolution= 17.4277 Angstroms, which requires orientationSampling of at least 9.72973 degrees for a particle of diameter 200 Angstroms
+ Oversampling= 0 NrHiddenVariableSamplingPoints= 33600
+ OrientationalSampling= 11.25 NrOrientations= 32
+ TranslationalSampling= 7.08 NrTranslations= 21
+=============================
+ Oversampling= 1 NrHiddenVariableSamplingPoints= 1075200
+ OrientationalSampling= 5.625 NrOrientations= 256
+ TranslationalSampling= 3.54 NrTranslations= 84
+=============================
+ Expectation iteration 25 of 25
+   4/   4 sec ............................................................~~(,_,">
+ Maximization...
+   0/   0 sec ............................................................~~(,_,">

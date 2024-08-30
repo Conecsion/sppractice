@@ -1,0 +1,5 @@
+
+ ++++ Executing new job on Fri Aug 30 17:22:54 2024
+ ++++ with the following command(s): 
+`which relion_autopick` --fn_topaz_exe relion_python_topaz --i Select/job007/micrographs_split1.star --odir AutoPick/job008/ --pickname autopick --LoG  --LoG_diam_min 150 --LoG_diam_max 180 --shrink 0 --lowpass 20 --LoG_adjust_threshold 0 --LoG_upper_threshold 5  --pipeline_control AutoPick/job008/
+ ++++ 
